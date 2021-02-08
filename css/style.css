@@ -1,0 +1,27 @@
+header h1{
+text-align: center;
+background-color: rgb(3, 46, 46);
+color: bisque;
+}
+
+
+#first {
+background-color: rgb(25, 94, 94);
+color: rgb(206, 198, 189);
+}
+
+#final {
+background-color: rgb(74, 151, 151);
+color: rgb(219, 204, 188);
+}
+
+.else {
+background-color: rgb(174, 236, 236);
+color: rgb(80, 68, 54);
+}
+
+footer {
+background-color: rgb(32, 44, 44);
+color: rgb(216, 210, 189);
+
+}
