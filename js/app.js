@@ -1,4 +1,5 @@
 'use strict';
+let score=0;
 let userName = prompt('Hello, What\'s your name?')
 console.log(userName);
 alert('Hi ' + userName + ", let's have fun with playing a guessing game!")
@@ -13,6 +14,7 @@ switch (height.toUpperCase()) {
     case 'NO':
     case 'N':
         //console.log('You\re correct.');
+        score++;
         alert('You\'re correct.');
         break;
     default:
@@ -31,6 +33,7 @@ switch (Favanimal.toUpperCase()) {
     case 'YES':
     case 'Y':
         //console.log('You\re correct.');
+        score++;
         alert('You\'re correct.');
         break;
     default:
@@ -43,6 +46,7 @@ switch (feeling.toUpperCase()) {
     case 'NO':
     case 'N':
         //console.log('You\re totally correct.');
+        score++;
         alert('You\'re totally correct.');
          break;
     case 'YES':
@@ -60,6 +64,7 @@ switch (shape.toUpperCase()) {
     case 'YES':
     case 'Y':
         //console.log('You\re totally correct.');
+        score++;
         alert('You\'re totally correct.');
          break;
     case 'NO':
@@ -77,6 +82,7 @@ switch (size.toUpperCase()) {
     case 'NO':
     case 'N':
         //console.log('You\re totally correct.');
+        score++;
         alert('You\'re totally correct.');
          break;
     case 'YES':
@@ -89,8 +95,11 @@ switch (size.toUpperCase()) {
         alert('Please write just yes or no!');
 }
 
-alert ('Thank you for joining me.');
+
+alert ("Thank you for joining me, you got " + score + "out of 7 ");
 
 
+
+ 
 
 
