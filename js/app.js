@@ -113,38 +113,43 @@ function Q5(params) {
 }
 Q5();
 
-let correctNumber = 7;
-
-for (let i = 0; i < 4; i++) {
-
-    let myNum = prompt('guess what is my favorite number betwee 1-10 ?');
-    // the prompt will always give us a string
-
-    //  '6'===6 => value and datatype
-    // '6'==6 => value
-    myNum = parseInt(myNum)
-
-    console.log(typeof myNum);
-
-    if (myNum === correctNumber) {
-        alert('good job');
-        score++;
-        break;
-    } else if (myNum > correctNumber) {
-        alert('too high');
-    } else if (myNum < correctNumber) {
-        alert('too low');
-    } else {
-        alert('please input a number');
-    }
-    // i = 0 
-    // i = 1
-    // i = 2
-    // i = 3
-    if (i == 3) {
-        alert('My favorite number is ' + correctNumber);
+function Q6(params) {
+    
+    let correctNumber = 7;
+    
+    for (let i = 0; i < 4; i++) {
+    
+        let myNum = prompt('guess what is my favorite number betwee 1-10 ?');
+        // the prompt will always give us a string
+    
+        //  '6'===6 => value and datatype
+        // '6'==6 => value
+        myNum = parseInt(myNum)
+    
+        console.log(typeof myNum);
+    
+        if (myNum === correctNumber) {
+            alert('good job');
+            score++;
+            break;
+        } else if (myNum > correctNumber) {
+            alert('too high');
+        } else if (myNum < correctNumber) {
+            alert('too low');
+        } else {
+            alert('please input a number');
+        }
+        // i = 0 
+        // i = 1
+        // i = 2
+        // i = 3
+        if (i == 3) {
+            alert('My favorite number is ' + correctNumber);
+        }
     }
 }
+Q6();
+
 
 let movies = ['the godfather', 'shotter island', 'inception', 'interstellar', 'TENT']
 let correct = false;
