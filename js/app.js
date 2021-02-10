@@ -70,24 +70,27 @@ function Q3(params) {
     }
 }
 Q3();
-let shape = prompt('Is the Earth flat?');
-switch (shape.toUpperCase()) {
-    case 'YES':
-    case 'Y':
-        //console.log('You\re totally correct.');
-        score++;
-        alert('You\'re totally correct.');
-        break;
-    case 'NO':
-    case 'N':
-        //console.log('You\'re correct, but not for this question lol');
-        alert('You\'re correct, but not for this question lol');
-        break;
-    default:
-        //console.log('Please write just yes or no!');
-        alert('Please write just yes or no!');
+function Q4(params) {
+    
+    let shape = prompt('Is the Earth flat?');
+    switch (shape.toUpperCase()) {
+        case 'YES':
+        case 'Y':
+            //console.log('You\re totally correct.');
+            score++;
+            alert('You\'re totally correct.');
+            break;
+        case 'NO':
+        case 'N':
+            //console.log('You\'re correct, but not for this question lol');
+            alert('You\'re correct, but not for this question lol');
+            break;
+        default:
+            //console.log('Please write just yes or no!');
+            alert('Please write just yes or no!');
+    }
 }
-
+Q4();
 let size = prompt('Is the Sun bigger than Earth?');
 switch (size.toUpperCase()) {
     case 'NO':
