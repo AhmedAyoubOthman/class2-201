@@ -27,23 +27,27 @@ function firstQ(params) {
 }
 firstQ();
 
-let Favanimal = prompt('Am I love cats?');
-switch (Favanimal.toUpperCase()) {
-    case 'NO':
-    case 'N':
-        //console.log('Sorry You\'re incorrect. ');
-        alert('Sorry, You\'re incorrect.');
-        break;
-    case 'YES':
-    case 'Y':
-        //console.log('You\re correct.');
-        score++;
-        alert('You\'re correct.');
-        break;
-    default:
-        //console.log('Please write just yes or no!');
-        alert('Please write just yes or no!');
+function Q2(params) {
+    
+    let Favanimal = prompt('Am I love cats?');
+    switch (Favanimal.toUpperCase()) {
+        case 'NO':
+        case 'N':
+            //console.log('Sorry You\'re incorrect. ');
+            alert('Sorry, You\'re incorrect.');
+            break;
+        case 'YES':
+        case 'Y':
+            //console.log('You\re correct.');
+            score++;
+            alert('You\'re correct.');
+            break;
+        default:
+            //console.log('Please write just yes or no!');
+            alert('Please write just yes or no!');
+    }
 }
+Q2();
 
 let feeling = prompt('Am I love NASA?');
 switch (feeling.toUpperCase()) {
