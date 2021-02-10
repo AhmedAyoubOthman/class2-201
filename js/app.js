@@ -91,24 +91,27 @@ function Q4(params) {
     }
 }
 Q4();
-let size = prompt('Is the Sun bigger than Earth?');
-switch (size.toUpperCase()) {
-    case 'NO':
-    case 'N':
-        //console.log('You\re totally correct.');
-        score++;
-        alert('You\'re totally correct.');
-        break;
-    case 'YES':
-    case 'Y':
-        //console.log('Sorry, I\'m afraid not. ');
-        alert('Sorry, I\'m afraid not.');
-        break;
-    default:
-        //console.log('Please write just yes or no!');
-        alert('Please write just yes or no!');
+function Q5(params) {
+    
+    let size = prompt('Is the Sun bigger than Earth?');
+    switch (size.toUpperCase()) {
+        case 'NO':
+        case 'N':
+            //console.log('You\re totally correct.');
+            score++;
+            alert('You\'re totally correct.');
+            break;
+        case 'YES':
+        case 'Y':
+            //console.log('Sorry, I\'m afraid not. ');
+            alert('Sorry, I\'m afraid not.');
+            break;
+        default:
+            //console.log('Please write just yes or no!');
+            alert('Please write just yes or no!');
+    }
 }
-
+Q5();
 
 let correctNumber = 7;
 
