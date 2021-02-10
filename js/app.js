@@ -150,31 +150,34 @@ function Q6(params) {
 }
 Q6();
 
-
-let movies = ['the godfather', 'shotter island', 'inception', 'interstellar', 'TENT']
-let correct = false;
-
-for (let i = 0; i < 6; i++) {
-
-    let question7 = prompt('whats my favourite movie?')
-
-    for (let j = 0; j < movies.length; j++) {
-
-        if (question7 == movies[j]) {
-            alert('good job');
-            i = 7;
-            score++
-
-            // correct = true;
-            break;
+function Q7(params) {
+    
+    let movies = ['the godfather', 'shotter island', 'inception', 'interstellar', 'TENT']
+    let correct = false;
+    
+    for (let i = 0; i < 6; i++) {
+    
+        let question7 = prompt('whats my favourite movie?')
+    
+        for (let j = 0; j < movies.length; j++) {
+    
+            if (question7 == movies[j]) {
+                alert('good job');
+                i = 7;
+                score++
+    
+                // correct = true;
+                break;
+            }
         }
+        // if (correct) {
+        //     break;
+        // }
     }
-    // if (correct) {
-    //     break;
-    // }
+    
+    alert(`my favourite movies are ${movies} `);
 }
-
-alert(`my favourite movies are ${movies} `);
+Q7();
 
 // for(let i=0; i<3;i++){
 //     console.log('inside first loop',i);
