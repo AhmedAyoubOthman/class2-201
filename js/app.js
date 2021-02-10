@@ -96,28 +96,26 @@ switch (size.toUpperCase()) {
 }
 
 
-
-
-let correctNumber = 6;
+let correctNumber = 7;
 
 for (let i = 0; i < 4; i++) {
 
-    let question6 = prompt('guess a number betwee 1-10');
+    let myNum = prompt('guess what is my favorite number betwee 1-10 ?');
     // the prompt will always give us a string
 
     //  '6'===6 => value and datatype
     // '6'==6 => value
-    question6 = parseInt(question6)
+    myNum = parseInt(myNum)
 
-    console.log(typeof question6);
+    console.log(typeof myNum);
 
-    if (question6 === correctNumber) {
+    if (myNum === correctNumber) {
         alert('good job');
         score++;
         break;
-    } else if (question6 > correctNumber) {
+    } else if (myNum > correctNumber) {
         alert('too high');
-    } else if (question6 < correctNumber) {
+    } else if (myNum < correctNumber) {
         alert('too low');
     } else {
         alert('please input a number');
@@ -127,11 +125,11 @@ for (let i = 0; i < 4; i++) {
     // i = 2
     // i = 3
     if (i == 3) {
-        alert('the correct number is ' + correctNumber);
+        alert('My favorite number is ' + correctNumber);
     }
 }
 
-let movies = ['the godfather', 'harry potter', 'inception', 'interstellar', 'TENT']
+let movies = ['the godfather', 'shotter island', 'inception', 'interstellar', 'TENT']
 let correct = false;
 
 for (let i = 0; i < 6; i++) {
