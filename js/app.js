@@ -49,24 +49,27 @@ function Q2(params) {
 }
 Q2();
 
-let feeling = prompt('Am I love NASA?');
-switch (feeling.toUpperCase()) {
-    case 'NO':
-    case 'N':
-        //console.log('You\re totally correct.');
-        score++;
-        alert('You\'re totally correct.');
-        break;
-    case 'YES':
-    case 'Y':
-        //console.log('Sorry You\'re incorrect. ');
-        alert('Sorry, You\'re incorrect.');
-        break;
-    default:
-        //console.log('Please write just yes or no!');
-        alert('Please write just yes or no!');
+function Q3(params) {
+    
+    let feeling = prompt('Am I love NASA?');
+    switch (feeling.toUpperCase()) {
+        case 'NO':
+        case 'N':
+            //console.log('You\re totally correct.');
+            score++;
+            alert('You\'re totally correct.');
+            break;
+        case 'YES':
+        case 'Y':
+            //console.log('Sorry You\'re incorrect. ');
+            alert('Sorry, You\'re incorrect.');
+            break;
+        default:
+            //console.log('Please write just yes or no!');
+            alert('Please write just yes or no!');
+    }
 }
-
+Q3();
 let shape = prompt('Is the Earth flat?');
 switch (shape.toUpperCase()) {
     case 'YES':
