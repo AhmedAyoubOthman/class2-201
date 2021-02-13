@@ -1,8 +1,14 @@
-header h1{
-text-align: center;
+header  {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
 background-color: rgb(3, 46, 46);
 color: bisque;
+    padding: 10px;
+    font-size: 20px;
 }
+
 
 
 #first {
@@ -20,8 +26,17 @@ background-color: rgb(174, 236, 236);
 color: rgb(80, 68, 54);
 }
 
+#movies {
+    background-color: rgb(174, 236, 236);
+    color: rgb(80, 68, 54);
+
+
+}
+
 footer {
 background-color: rgb(32, 44, 44);
 color: rgb(216, 210, 189);
+text-align: center;
 
 }
+
